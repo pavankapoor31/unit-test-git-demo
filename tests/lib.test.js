@@ -18,7 +18,7 @@ describe('Absolute : 90232 : Muthu Mathiyazhagan K', () => {
         expect(result).toBe(0);
     })
 })
-
+////I90494
 describe("FizzBuzz : I90494 : Atharsh S", () => {
     it("should return 'FizzBuzz' if input can be divide by 5 and 3", () =>{
         const result = lib.FizzBuzz(15);
