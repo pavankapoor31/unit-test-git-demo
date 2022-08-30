@@ -65,3 +65,12 @@ module.exports.divisible_by_5 = function (n) {
         return "No";
     }
     }
+
+//90489
+module.exports.noofdays=function(days){
+    if(days==30||days==31||days==28||days==29){
+        return "No of days in a month";
+    }else{
+        return "Enter number between 28 and 31";
+    }
+}

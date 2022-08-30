@@ -107,3 +107,17 @@ describe('divisible_by_5 : 90490 :  Aarthi S', () => {
         expect(result).toBe("No");
     })
 })
+
+//90489
+describe('noofdays : 90489 :  Reshma S', () => {
+    it('It Should return "No of days in a month" if the Input is between 28 and 31', () => {
+        const result = lib.noofdays(31);
+        expect(result).toBe("No of days in a month");
+    })
+
+
+    it('It Should return "Enter number between 28 and 31" if the Input is not between 28 and 31', () => {
+        const result = lib.noofdays(13);
+        expect(result).toBe("Enter number between 28 and 31");
+    })
+})
