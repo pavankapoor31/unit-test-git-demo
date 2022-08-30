@@ -43,3 +43,15 @@ module.exports.vowel = function (ch){
     else
         return "Invalid";
 }   
+
+//90502
+module.exports.validateEmail= function(email) 
+    {
+        var re = /\S+@\S+\.\S+/;
+    if(re.test(email)==true){
+        return "valid email";
+    }
+    else{
+        return "invalid email";
+    }
+}
