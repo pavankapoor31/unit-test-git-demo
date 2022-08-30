@@ -93,3 +93,17 @@ describe('validateEmail : 90502 : Vijay M', () => {
         expect(result).toBe('invalid email');
     })
 })
+
+// 90490
+describe('divisible_by_5 : 90490 :  Aarthi S', () => {
+    it('It Should return Yes if the Input is divisible by 5', () => {
+        const result = lib.divisible_by_5(20);
+        expect(result).toBe("Yes");
+    })
+
+
+    it('It Should return No if the Input is not divisible by 5', () => {
+        const result = lib.divisible_by_5(13);
+        expect(result).toBe("No");
+    })
+})

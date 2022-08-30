@@ -55,3 +55,13 @@ module.exports.validateEmail= function(email)
         return "invalid email";
     }
 }
+
+//90490
+module.exports.divisible_by_5 = function (n) {
+    if(n % 5 == 0) {
+        return "Yes";
+    }
+    else {
+        return "No";
+    }
+    }
