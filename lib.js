@@ -19,7 +19,7 @@ module.exports.FizzBuzz = function (number) {
     }
 
 }
-// 90487
+// I90487
 module.exports.evenodd = function (num) {
     if(num % 2 == 0) {
         return 1;
